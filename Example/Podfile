@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'SSNetworkMonitor_Example' do
+  pod 'SSNetworkMonitor', :path => '../'
+
+  target 'SSNetworkMonitor_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
