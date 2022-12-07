@@ -1,0 +1,16 @@
+PODS:
+  - SSNetworkMonitor (0.1.0)
+
+DEPENDENCIES:
+  - SSNetworkMonitor (from `../`)
+
+EXTERNAL SOURCES:
+  SSNetworkMonitor:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SSNetworkMonitor: 600a5a788e04550f48643f14ee20298f63565ba8
+
+PODFILE CHECKSUM: 087cf2b49dfcbbf8d9ef15671bc1313c2cc1d768
+
+COCOAPODS: 1.11.3
