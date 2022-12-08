@@ -7,11 +7,14 @@
 //
 
 import UIKit
+import Pods_SSNetworkMonitor_Example
 
-class ViewController: UIViewController {
-
+class ViewController: UIViewController , ObservableObject {
+    
+    @Published var network = SSNetworkMonitor.shared
     override func viewDidLoad() {
         super.viewDidLoad()
+        print(network.checkNetworkAvailability())
         // Do any additional setup after loading the view, typically from a nib.
     }
 

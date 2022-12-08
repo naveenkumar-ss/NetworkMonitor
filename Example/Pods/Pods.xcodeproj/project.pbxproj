@@ -16,7 +16,7 @@
 		9F5278FAC19DBA4D7EACA3C8A795B7BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		AA755CF555FF7001CF187F3C1F65E335 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		AD3ABC6A0CBA8BCC03261D49786F6B34 /* Pods-SSNetworkMonitor_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D14B10F05A998D4375F91073EE135343 /* Pods-SSNetworkMonitor_Tests-dummy.m */; };
-		B082982DB1DCCDD7DF86C85E650A558F /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04C01BB99169C8D2366E1FD78DC9636 /* ReplaceMe.swift */; };
+		EB5A5E082940DC31000915FD /* SSNetworkMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5A5E072940DC31000915FD /* SSNetworkMonitor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,14 +39,14 @@
 /* Begin PBXFileReference section */
 		0CC4DE14235FD2E32CF1960315098048 /* SSNetworkMonitor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SSNetworkMonitor.release.xcconfig; sourceTree = "<group>"; };
 		0F1A88EA96FE7BE522EAAEB10ED1ACD3 /* Pods-SSNetworkMonitor_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SSNetworkMonitor_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		156428AA8C13BFBA9B3A812C6A27E332 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		156428AA8C13BFBA9B3A812C6A27E332 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		1B9271B8407B9D0DF8C012F0629D4F98 /* Pods-SSNetworkMonitor_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SSNetworkMonitor_Example.modulemap"; sourceTree = "<group>"; };
 		2E7EC8668D401153BDDEDAA3387216E3 /* Pods-SSNetworkMonitor_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SSNetworkMonitor_Example-dummy.m"; sourceTree = "<group>"; };
 		2F75661834E764641CAF634EBF398829 /* SSNetworkMonitor-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SSNetworkMonitor-Info.plist"; sourceTree = "<group>"; };
 		373B9619EB7AFC2268DF82563FFD6E17 /* Pods-SSNetworkMonitor_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SSNetworkMonitor_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		378E760792AED9ECE5D97D96854C17C8 /* Pods-SSNetworkMonitor_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SSNetworkMonitor_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		479CD190B83E95BF8C0177AD0253005C /* Pods-SSNetworkMonitor_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-SSNetworkMonitor_Example"; path = Pods_SSNetworkMonitor_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		589295B73C674D6342F11BAD72A3FEDC /* Pods-SSNetworkMonitor_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-SSNetworkMonitor_Tests"; path = Pods_SSNetworkMonitor_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		479CD190B83E95BF8C0177AD0253005C /* Pods_SSNetworkMonitor_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SSNetworkMonitor_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		589295B73C674D6342F11BAD72A3FEDC /* Pods_SSNetworkMonitor_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SSNetworkMonitor_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		65889949611BE7A4A6E5C350B0495E9C /* Pods-SSNetworkMonitor_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SSNetworkMonitor_Tests-umbrella.h"; sourceTree = "<group>"; };
 		65AAD9E51F5BC43D18C825144DE539EE /* Pods-SSNetworkMonitor_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SSNetworkMonitor_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		68456874BD0BD5E5A0FC42D9C84E7428 /* Pods-SSNetworkMonitor_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SSNetworkMonitor_Example-Info.plist"; sourceTree = "<group>"; };
@@ -55,19 +55,19 @@
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		74CAE092072F39162ECEEA46DA2F90E9 /* Pods-SSNetworkMonitor_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SSNetworkMonitor_Example-umbrella.h"; sourceTree = "<group>"; };
 		7B7AE802326CE7FD6E55860D15BDFFA9 /* SSNetworkMonitor-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SSNetworkMonitor-umbrella.h"; sourceTree = "<group>"; };
-		7CD87D1611E2F89AA524572A45EBC99A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		80FADA440D12916C67CEE542C46031FB /* SSNetworkMonitor.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SSNetworkMonitor.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7CD87D1611E2F89AA524572A45EBC99A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		80FADA440D12916C67CEE542C46031FB /* SSNetworkMonitor.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = SSNetworkMonitor.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		85157AAE9C896B8D7C42F5E12D53072D /* Pods-SSNetworkMonitor_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SSNetworkMonitor_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		8726A672E494F5356C6232CFCB27BA74 /* Pods-SSNetworkMonitor_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SSNetworkMonitor_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		AE76FFD0724B751A675B01669D319E53 /* Pods-SSNetworkMonitor_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SSNetworkMonitor_Tests.modulemap"; sourceTree = "<group>"; };
 		CB0489B7B2F66C0AC7851FCE22D8E242 /* Pods-SSNetworkMonitor_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SSNetworkMonitor_Tests-Info.plist"; sourceTree = "<group>"; };
 		CE91002A9477AE0CFA25F5E74F25E4EB /* SSNetworkMonitor.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SSNetworkMonitor.modulemap; sourceTree = "<group>"; };
 		D14B10F05A998D4375F91073EE135343 /* Pods-SSNetworkMonitor_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SSNetworkMonitor_Tests-dummy.m"; sourceTree = "<group>"; };
 		D42E15C32EFE16792F7905F36B0D9F8D /* Pods-SSNetworkMonitor_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SSNetworkMonitor_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		E0F60870ECE49124E9E543A034FF5317 /* Pods-SSNetworkMonitor_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SSNetworkMonitor_Example-frameworks.sh"; sourceTree = "<group>"; };
-		F04C01BB99169C8D2366E1FD78DC9636 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = SSNetworkMonitor/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
-		F22C810DB86C845F7AD4510484F76D22 /* SSNetworkMonitor */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SSNetworkMonitor; path = SSNetworkMonitor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB5A5E072940DC31000915FD /* SSNetworkMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSNetworkMonitor.swift; sourceTree = "<group>"; };
+		F22C810DB86C845F7AD4510484F76D22 /* SSNetworkMonitor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SSNetworkMonitor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC915E19C6831D10FB0ED772005819C3 /* SSNetworkMonitor-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SSNetworkMonitor-prefix.pch"; sourceTree = "<group>"; };
 		FFB18B2B44ED1C6239F328ACAB524FF5 /* SSNetworkMonitor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SSNetworkMonitor.debug.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -103,9 +103,9 @@
 		14B19E4D47CE5A1D1906FAF78999213C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				479CD190B83E95BF8C0177AD0253005C /* Pods-SSNetworkMonitor_Example */,
-				589295B73C674D6342F11BAD72A3FEDC /* Pods-SSNetworkMonitor_Tests */,
-				F22C810DB86C845F7AD4510484F76D22 /* SSNetworkMonitor */,
+				479CD190B83E95BF8C0177AD0253005C /* Pods_SSNetworkMonitor_Example.framework */,
+				589295B73C674D6342F11BAD72A3FEDC /* Pods_SSNetworkMonitor_Tests.framework */,
+				F22C810DB86C845F7AD4510484F76D22 /* SSNetworkMonitor.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -113,7 +113,7 @@
 		21B08FCD36AE5807CC54A9983C13C7EA /* SSNetworkMonitor */ = {
 			isa = PBXGroup;
 			children = (
-				F04C01BB99169C8D2366E1FD78DC9636 /* ReplaceMe.swift */,
+				EB5A5E062940DC0D000915FD /* NetworkManager */,
 				D6459EF2380195DFE1451835A12F77D0 /* Pod */,
 				4C6738E3FC1E7CE77BBDCD68F37CB318 /* Support Files */,
 			);
@@ -223,6 +223,14 @@
 			name = Pod;
 			sourceTree = "<group>";
 		};
+		EB5A5E062940DC0D000915FD /* NetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				EB5A5E072940DC31000915FD /* SSNetworkMonitor.swift */,
+			);
+			path = NetworkManager;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -268,7 +276,7 @@
 			);
 			name = SSNetworkMonitor;
 			productName = SSNetworkMonitor;
-			productReference = F22C810DB86C845F7AD4510484F76D22 /* SSNetworkMonitor */;
+			productReference = F22C810DB86C845F7AD4510484F76D22 /* SSNetworkMonitor.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		65A3DD9756A31EA17B47EEB9261DC528 /* Pods-SSNetworkMonitor_Example */ = {
@@ -287,7 +295,7 @@
 			);
 			name = "Pods-SSNetworkMonitor_Example";
 			productName = Pods_SSNetworkMonitor_Example;
-			productReference = 479CD190B83E95BF8C0177AD0253005C /* Pods-SSNetworkMonitor_Example */;
+			productReference = 479CD190B83E95BF8C0177AD0253005C /* Pods_SSNetworkMonitor_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		686A8750B851DF89E32EB6F0227A69BA /* Pods-SSNetworkMonitor_Tests */ = {
@@ -306,7 +314,7 @@
 			);
 			name = "Pods-SSNetworkMonitor_Tests";
 			productName = Pods_SSNetworkMonitor_Tests;
-			productReference = 589295B73C674D6342F11BAD72A3FEDC /* Pods-SSNetworkMonitor_Tests */;
+			productReference = 589295B73C674D6342F11BAD72A3FEDC /* Pods_SSNetworkMonitor_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -317,6 +325,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					65A3DD9756A31EA17B47EEB9261DC528 = {
+						LastSwiftMigration = 1340;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -367,7 +380,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B082982DB1DCCDD7DF86C85E650A558F /* ReplaceMe.swift in Sources */,
 				7028755AA2390504D59FAA7D1496D56C /* SSNetworkMonitor-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -376,6 +388,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB5A5E082940DC31000915FD /* SSNetworkMonitor.swift in Sources */,
 				19F178B0BA849D8EDD8721786B0757C1 /* Pods-SSNetworkMonitor_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -422,7 +435,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-SSNetworkMonitor_Tests/Pods-SSNetworkMonitor_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-SSNetworkMonitor_Tests/Pods-SSNetworkMonitor_Tests.modulemap";
@@ -490,13 +503,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -507,6 +519,7 @@
 			baseConfigurationReference = 6F70892D06092242C669765E43109D24 /* Pods-SSNetworkMonitor_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -518,7 +531,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-SSNetworkMonitor_Example/Pods-SSNetworkMonitor_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-SSNetworkMonitor_Example/Pods-SSNetworkMonitor_Example.modulemap";
@@ -529,6 +542,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -552,7 +566,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/SSNetworkMonitor/SSNetworkMonitor-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/SSNetworkMonitor/SSNetworkMonitor-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/SSNetworkMonitor/SSNetworkMonitor.modulemap";
 				PRODUCT_MODULE_NAME = SSNetworkMonitor;
@@ -620,7 +634,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -638,6 +652,7 @@
 			baseConfigurationReference = 65AAD9E51F5BC43D18C825144DE539EE /* Pods-SSNetworkMonitor_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -649,7 +664,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-SSNetworkMonitor_Example/Pods-SSNetworkMonitor_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-SSNetworkMonitor_Example/Pods-SSNetworkMonitor_Example.modulemap";
@@ -660,6 +675,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -682,7 +699,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/SSNetworkMonitor/SSNetworkMonitor-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/SSNetworkMonitor/SSNetworkMonitor-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/SSNetworkMonitor/SSNetworkMonitor.modulemap";
 				PRODUCT_MODULE_NAME = SSNetworkMonitor;
@@ -714,7 +731,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-SSNetworkMonitor_Tests/Pods-SSNetworkMonitor_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-SSNetworkMonitor_Tests/Pods-SSNetworkMonitor_Tests.modulemap";

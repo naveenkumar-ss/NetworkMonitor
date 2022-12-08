@@ -39,14 +39,14 @@
 		607FACE51AFB9204008FA782 /* SSNetworkMonitor_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SSNetworkMonitor_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		638C570CD620F9EE2A276D5A /* SSNetworkMonitor.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SSNetworkMonitor.podspec; path = ../SSNetworkMonitor.podspec; sourceTree = "<group>"; };
+		638C570CD620F9EE2A276D5A /* SSNetworkMonitor.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SSNetworkMonitor.podspec; path = ../SSNetworkMonitor.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6C4F09585C078742C58A4A66 /* Pods_SSNetworkMonitor_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SSNetworkMonitor_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0ABFF9FC665C195543EC0F6 /* Pods-SSNetworkMonitor_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SSNetworkMonitor_Example.debug.xcconfig"; path = "Target Support Files/Pods-SSNetworkMonitor_Example/Pods-SSNetworkMonitor_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		CAA0A9B883F6F0B968EB82F0 /* Pods-SSNetworkMonitor_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SSNetworkMonitor_Example.release.xcconfig"; path = "Target Support Files/Pods-SSNetworkMonitor_Example/Pods-SSNetworkMonitor_Example.release.xcconfig"; sourceTree = "<group>"; };
-		D27350656468518900B08EF1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		D27350656468518900B08EF1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		FA31B7764F38521736515E55 /* Pods-SSNetworkMonitor_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SSNetworkMonitor_Tests.debug.xcconfig"; path = "Target Support Files/Pods-SSNetworkMonitor_Tests/Pods-SSNetworkMonitor_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		FB736DA5ACD0B57736D3851B /* Pods_SSNetworkMonitor_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SSNetworkMonitor_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FEAF5F1BDD5588F639A41EFB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		FEAF5F1BDD5588F639A41EFB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,7 +156,6 @@
 				FA31B7764F38521736515E55 /* Pods-SSNetworkMonitor_Tests.debug.xcconfig */,
 				3FA70526B21CA162AAEB4746 /* Pods-SSNetworkMonitor_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -419,7 +419,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -465,7 +465,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
